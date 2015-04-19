@@ -1,17 +1,17 @@
 @keyframes rotateInDownRight {
   0% {
-    transform-origin: right bottom;
-    transform: rotate3d(0, 0, 1, 45deg);
+    @include transform-origin(right bottom);
+    @include transform(rotate3d(0, 0, 1, 45deg));
     opacity: 0;
   }
 
   100% {
-    transform-origin: right bottom;
-    transform: none;
+    @include transform-origin(right bottom);
+    @include transform(none);
     opacity: 1;
   }
 }
 
 .rotateInDownRight {
-  animation-name: rotateInDownRight;
+  @include animation-name(rotateInDownRight);
 }

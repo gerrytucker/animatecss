@@ -1,15 +1,15 @@
 @keyframes fadeInDownBig {
   0% {
     opacity: 0;
-    transform: translate3d(0, -2000px, 0);
+    @include transform(translate3d(0, -2000px, 0));
   }
 
   100% {
     opacity: 1;
-    transform: none;
+    @include transform(none);
   }
 }
 
 .fadeInDownBig {
-  animation-name: fadeInDownBig;
+  @include animation-name(fadeInDownBig);
 }

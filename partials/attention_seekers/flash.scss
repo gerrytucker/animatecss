@@ -9,5 +9,5 @@
 }
 
 .flash {
-  animation-name: flash;
+  @include animation-name(flash);
 }

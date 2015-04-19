@@ -7,10 +7,10 @@
 
   100% {
     opacity: 0;
-    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    @include transform(translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg));
   }
 }
 
 .rollOut {
-  animation-name: rollOut;
+  @include animation-name(rollOu)t;
 }

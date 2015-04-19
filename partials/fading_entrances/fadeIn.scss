@@ -9,5 +9,5 @@
 }
 
 .fadeIn {
-  animation-name: fadeIn;
+  @include animation-name(fadeIn);
 }

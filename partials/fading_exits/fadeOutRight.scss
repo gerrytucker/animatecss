@@ -5,10 +5,10 @@
 
   100% {
     opacity: 0;
-    transform: translate3d(100%, 0, 0);
+    @include transform(translate3d(100%, 0, 0));
   }
 }
 
 .fadeOutRight {
-  animation-name: fadeOutRight;
+  @include animation-name(fadeOutRight);
 }

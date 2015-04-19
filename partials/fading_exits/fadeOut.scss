@@ -9,5 +9,5 @@
 }
 
 .fadeOut {
-  animation-name: fadeOut;
+  @include animation-name(fadeOut);
 }
